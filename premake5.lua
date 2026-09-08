@@ -16,7 +16,7 @@ GetTracyExternalIncludes = function()
     end
 
 	if table.contains(graphics, "NP_GRAPHICS_VULKAN") then
-        table.insert(list, vendor.Vulkan.includes)
+        table.insert(list, vendor.Vulkan_Headers.includes)
     end
 
     return list
