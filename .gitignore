@@ -46,3 +46,4 @@ examples/ToyPathTracer/Windows/x64
 *.json
 
 Makefile
+*.Android.mk
